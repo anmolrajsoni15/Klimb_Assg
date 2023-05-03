@@ -1,0 +1,152 @@
+.homeContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.heading{
+    background-color: rgb(255, 225, 0);
+    width: 100%;
+    color: rgb(65, 65, 65);
+    font-size: 1.2rem;
+    padding: 0.5rem 2rem;
+}
+
+.mainContainer{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2rem auto;
+}
+
+.mainContainer .subtitle{
+    font: 500 1.1rem cursive;
+    margin-bottom: 15px;
+}
+
+.formatSelect .text{
+    font-size: 0.9rem;
+}
+
+.formatSelect>input[type="checkbox"]{
+    border-radius: 100%;
+    width: 11px;
+    margin-top: 2px;
+    transform: translateY(2px);
+    margin-left: 5px;
+    /* margin: auto; */
+}
+
+.formatSelect>label{
+    font-size: 0.8rem;
+    margin: auto;
+    margin: 0px 4px; 
+}
+
+.upload{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 2px rgba(128, 128, 128, 0.25);
+}
+
+.upload>input[type="file"]{
+    /* display: none; */
+    text-align: center;
+    width: 6rem;
+}
+
+.upload>label{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    border: none;
+    background-color: white;
+    color: transparent;
+    background: url("https://e7.pngegg.com/pngimages/729/643/png-clipart-upload-arrow-in-circle-icons-logos-emojis-upload-buttons-thumbnail.png") no-repeat center center / contain;
+}
+
+.upload>input[type="file"]::-webkit-file-upload-button{
+    display: none;
+}
+
+.upload .text{
+    font-size: 0.8rem;
+    margin-top: 3rem;
+}
+
+.import{
+    /* position: relative; */
+    /* left: 50%; */
+    margin: 15px auto;
+    width: 20%;
+    height: 2.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 225, 0);
+    color: rgb(65, 65, 65);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.import:hover{
+    background-color: rgb(232, 206, 7);
+    color: rgb(40, 40, 40);
+}
+
+.disclamer{
+    position: relative;
+    top: 20%;
+}
+
+.disclamer ul{
+    list-style-type: '- ';
+    position: relative;
+    left: 5%;
+}
+
+.upload .Success{
+    color: rgb(43, 213, 0);
+    font-size: 1.15rem;
+    font-family: cursive;
+    margin: 10px 0px;
+}
+
+.success_head{
+    font-size: 0.9rem;
+    margin: 8px 0px;
+}
+
+.success_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+.logout{
+    position: absolute;
+    top: -0.5%;
+    right: 3%;
+    height: 1.8rem;
+    color: white;
+    width: 6rem;
+    background-color: tomato;
+    margin: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+}
